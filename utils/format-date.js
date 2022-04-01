@@ -1,3 +1,5 @@
+// maybe use date-and-time library: https://www.skypack.dev/view/date-and-time
+
 const addDateSuffix = date => {
     let dateStr = date.toString();
   
