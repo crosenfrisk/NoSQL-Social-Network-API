@@ -64,7 +64,7 @@ const userController = {
       .catch((err) => res.status(400).json(err));
   },
 
-  // Option to delete user, by id
+  // Option to delete user, by id, all thoughts by user also deleted
   async deleteUser({ params }, res) {
     try {
       let dbUserData = await User.findOneAndDelete({ _id: params.userId })
