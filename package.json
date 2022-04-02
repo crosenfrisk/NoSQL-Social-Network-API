@@ -2,9 +2,9 @@
   "name": "NoSQL-Social-Network-API",
   "version": "1.0.0",
   "description": "NoSQL API for social media application, where users can share their thoughts, create a friend's list, and react to friend's thoughts.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/crosenfrisk/NoSQL-Social-Network-API/issues"
   },
