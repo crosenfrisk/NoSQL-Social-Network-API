@@ -23,14 +23,19 @@
   
 
   ## Installation
-  Users download the repo and run from Visual Studio Code, or their preferred editor. Required packages include Express.js and Mongoose. The data is currently hosted at MongoDB Atlas, but users can create their own local environment if they prefer. To emulate without a front-end for the application, use Insomnia or Post-Man to test routes for Users and Thoughts. Currently the database is set up to add users, create friend lists, post thoughts, update thoughts, post reactions, delete reactions, delete thoughts, delete friends, and delete users and their associated thoughts."
-
+  Users download the repo and run from Visual Studio Code, or their preferred editor. Required packages include Express.js and Mongoose. 
+  
+  The data from my repo is currently hosted by MongoDB Atlas, but users can create their own local environment if they prefer.
+  
+  To emulate without a front-end for the application, use Insomnia or Postman to test routes for Users and Thoughts. 
+  
+  Currently the database is set up to add users, create and delete friends, create, edit and delete thoughts, create and delete reactions to thoughts. If a user is deleted, their associated thoughts are also removed from the database.
 
   ## Usage
-  Run in Insomnia after creating required routes, as listed in /routes
+  Run in Insomnia after creating required routes, as listed in /routes folder.
 
   ## Credits
-  Thanks to @kyler-Mclachlan for sharing your eyes when one of my routes wasn't working!
+  Thanks to @kyler-Mclachlan for sharing your sharp eyes when one of my routes was not working! 🦅
 
   ## License
   ![License for README](https://img.shields.io/badge/license-MIT-green/)
@@ -47,12 +52,11 @@
   
 
   ## Contributions
-  Users can contribute by commenting @crosnfrisk on GitHub, or email Claire at the email address listed below.
+  Users can contribute by messaging @crosenfrisk on GitHub, or email Claire at the email address listed below.
 
   ## Test
   Use Insomnia or other platform to test routes.
 
   ## Questions
-  If you have any questions about this project, please contact me directly at claire.rosenfrisk@gmail.com. You can view more of my work on 
-  ![GitHub](/assets/github-brands.svg) [My GitHub Profile](https://github.com/crosenfrisk).
+  If you have any questions about this project, please contact me directly at [claire.rosenfrisk@gmail.com](mailto:claire.rosenfrisk@gmail.com). You can view more of my work on ![GitHub](/assets/github-brands.svg) [My GitHub Profile](https://github.com/crosenfrisk).
 
