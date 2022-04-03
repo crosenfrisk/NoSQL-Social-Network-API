@@ -34,7 +34,7 @@ const ReactionSchema = new Schema(
     }
 )
 
-const ThoughtSchema = new ThoughtSchema(
+const ThoughtSchema = new Schema(
     {
         thoughtText: {
             type: String,
@@ -49,7 +49,7 @@ const ThoughtSchema = new ThoughtSchema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: createdAtVal => dateFormat(createdAtVal)
+            get: createdAtVal => formatDate(createdAtVal)
         },
         username: {
             type: String,
